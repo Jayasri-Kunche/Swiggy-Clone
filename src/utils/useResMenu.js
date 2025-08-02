@@ -10,7 +10,7 @@ const useResMenu = (id) => {
             setMenu(out);
         }
         fetchMenu()
-    },[])
+    },[id])
     return menu;
 }
 
